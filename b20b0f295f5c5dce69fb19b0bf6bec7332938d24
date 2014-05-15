@@ -1,0 +1,8 @@
+Change-Id: Ib20b0f295f5c5dce69fb19b0bf6bec7332938d24
+Code-Review+2: Russell Sim <russell.sim@gmail.com>
+Verified+1: Russell Sim <russell.sim@gmail.com>
+Submitted-by: Russell Sim <russell.sim@gmail.com>
+Submitted-at: Thu, 15 May 2014 17:09:34 +1000
+Reviewed-on: https://review.rc.nectar.org.au/1332
+Project: NeCTAR-RC/puppet-fail2ban
+Branch: refs/meta/config

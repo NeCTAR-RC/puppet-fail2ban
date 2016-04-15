@@ -8,6 +8,7 @@ class fail2ban {
   case $::lsbdistcodename {
     precise: { $fail2banconf='fail2ban.conf' $jailconf='jail.conf' }
     trusty:  { $fail2banconf='fail2ban.local' $jailconf='jail.local' }
+    xenial:  { $fail2banconf='fail2ban.local' $jailconf='jail.local' }
     default: { fail("Unknown lsbdistcodename : '$::{lsbdistcodename}'") }
   }
 
